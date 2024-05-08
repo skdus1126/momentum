@@ -1,0 +1,81 @@
+.hidden{
+    display:none;
+}
+*{
+    font-family: "Inter", sans-serif;
+}
+h1{
+    position: fixed; 
+    left: 40px;
+    font-weight: 700;
+    font-size: 3.5em;
+}
+#momentum{
+    position: fixed; 
+    left:40px;
+    top:10px;
+}
+#login-form{
+    position: fixed; 
+    top:200px;
+    left: 40px;
+    color: black; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 500; line-height: 30px;
+    word-wrap: break-word;
+}
+#weather{
+    color:cornflowerblue;
+    position:fixed;
+    right:100px;
+    top:20px;
+    float:right;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 30px; 
+}
+img{
+    width: 600px;
+    height: 450px;
+    position: absolute;
+    right: 100px;
+    top: 200px;
+}
+#clock{
+    font-size: 3.5em;
+    position: fixed;
+    float:right;
+    right: 100px;
+    top:20px;
+}
+#quote{
+    width: 500px;
+    height: 40px;
+    margin:10px;
+    position: fixed;
+    top:260px;
+    left:40px;
+    word-break: keep-all;
+}
+#today{
+    position: absolute;
+    left: 40px;
+    bottom: 300px;
+}
+#todo-form{
+    position: fixed;
+    left: 40px;
+    bottom:280px;
+}
+#phrase{
+    position: fixed;
+    left: 40px;
+    top:220px;
+}
+#todo-list{
+    position: absolute;
+    left:20px;
+    top: 410px;
+}
